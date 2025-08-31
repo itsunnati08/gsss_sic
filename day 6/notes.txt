@@ -1,0 +1,32 @@
+import sys
+
+
+state = []
+capitals = []
+
+if len(sys.argv) >= 3:
+    state.append(sys.argv[1])
+    capitals.append(sys.argv[2])
+else:
+    print("Please provide both a state and its capital.")
+
+# Printing the output as requested
+print("state      |    capitals")
+print("-------------------------")
+print(f"{state[0]}  |   {capitals[0]}")
+
+~q]take a 4 digit of your choice where a digit cannot repeat more than twice
+put the no. in decreasing order and below that but in
+increasing order take the difference
+
+1122
+2211
+-1089
+
+2323
+3232
+-909
+
+9845
+5489
+-2178-8712
