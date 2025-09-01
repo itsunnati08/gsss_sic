@@ -1,0 +1,84 @@
+bubble sort:
+pdb
+derive the efficiency of all the algorithms
+
+pesodocode 
+def bubble_sort(array)
+  for i in range(len(array)-1);
+  for j in range(len(array)-1-i):
+  if array[j]>array[]
+
+  wce:o(n2)
+  bce:o(n2)
+--------------------------------------
+Isertion sort:Decrease and Conquer technique
+
+worst case:o[n2]
+best case:o[n]
+
+to learn:logic/algorithms
+efficiencies
+category
+optimizations
+applications
+ 
+------------------------------------------------------------------------------------
+Bucket Sort:
+- Category: Distribution sort
+- Logic: Distributes elements into several buckets, sorts each bucket, then concatenates.
+- Efficiency: Best/Average O(n+k), Worst O(n^2) (rare)
+- Applications: Sorting uniformly distributed data, floating point numbers.
+------------------------------------------------------------------------------------
+Quick Sort:
+- Category: Divide and conquer
+- Logic: Picks a pivot, partitions array into elements less than and greater than pivot, recursively sorts partitions.
+- Efficiency: Best/Average O(n log n), Worst O(n^2)
+- Applications: General-purpose sorting, often fastest in practice.
+
+Best/Average Case O(n log n):
+
+-Each time you pick a pivot, it splits the array into two nearly equal halves.
+-This means you do log n levels of splitting (like dividing in half repeatedly).
+-At each level, you look at all n elements to partition them.
+-So, total work = log n levels × n work per level = O(n log n).
+
+Worst Case O(n²):
+
+-Happens if the pivot always picks the smallest or largest element (like if the array is already sorted).
+-Then, one side has n-1 elements, the other has 0, so you do n + (n-1) + (n-2) + ... + 1 comparisons.
+-This adds up to O(n²).
+Summary:
+
+-Quick sort is fast (O(n log n)) when pivots split the array well.
+It’s slow (O(n²)) if pivots are always the worst possible.
+-Random pivots or shuffling the array helps avoid the worst case.
+-Then, one side has n-1 elements, the other has 0, so you do n + (n-1) + (n-2) + ... + 1 comparisons.
+This adds up to O(n²).
+--------------------------------------------------------------------
+Selection Sort:
+- Category: Comparison sort
+- Logic: Repeatedly selects the minimum element from unsorted part and moves it to sorted part.
+- Efficiency: Best/Worst/Average O(n^2)
+- Applications: Small datasets, when memory writes are costly.
+
+Merge Sort:
+- Category: Divide and conquer
+- Logic: Divides array into halves, recursively sorts, then merges sorted halves.
+- Efficiency: Best/Worst/Average O(n log n)
+- Applications: Linked lists, external sorting (large files)
+--------------------------------------------------------------------------
+Radix Sort:
+- Category: Non-comparison, distribution sort
+- Logic: Sorts numbers digit by digit (starting from least significant digit), using a stable sort (like counting sort) at each digit position.
+- Efficiency: Best/Average/Worst O(d * (n + k)), where d = number of digits, n = number of elements, k = range of digits (usually 0-9)
+- Applications: Sorting integers, phone numbers, large datasets where keys are numbers or strings with
+--------------------------------------------------------------------------------
+-heap
+best
+avl
+greedy
+backtracking
+recursion
+
+--------------------------
+sleep,delay show images using time library(quicksort)
