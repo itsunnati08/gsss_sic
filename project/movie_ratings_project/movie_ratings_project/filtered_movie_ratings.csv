@@ -1,0 +1,16 @@
+UserID,MovieID,Rating,Title,Genre,Name,Age,Location,RatingCategory
+U001,M001,5,Inception,Sci-Fi,Alice,25,New York,High
+U001,M002,4,Titanic,Romance,Alice,25,New York,High
+U001,M003,5,The Godfather,Crime,Alice,25,New York,High
+U002,M002,3,Titanic,Romance,Bob,30,California,Medium
+U002,M004,4,Avengers,Action,Bob,30,California,High
+U002,M005,5,Interstellar,Sci-Fi,Bob,30,California,High
+U003,M001,4,Inception,Sci-Fi,Charlie,22,Texas,High
+U003,M006,5,The Dark Knight,Action,Charlie,22,Texas,High
+U003,M007,3,Frozen,Animation,Charlie,22,Texas,Medium
+U004,M004,5,Avengers,Action,Diana,28,Florida,High
+U004,M005,4,Interstellar,Sci-Fi,Diana,28,Florida,High
+U004,M008,5,Parasite,Thriller,Diana,28,Florida,High
+U005,M001,2,Inception,Sci-Fi,Ethan,35,Chicago,Low
+U005,M009,4,La La Land,Romance,Ethan,35,Chicago,High
+U005,M010,3,Shutter Island,Thriller,Ethan,35,Chicago,Medium

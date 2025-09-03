@@ -1,0 +1,25 @@
+UserID,MovieID,Rating,Title,Genre,RatingCategory,IsPopular
+U001,M001,5,Inception,Sci-Fi,High,No
+U001,M002,4,Titanic,Romance,High,No
+U001,M003,5,The Godfather,Crime,High,No
+U002,M002,3,Titanic,Romance,Medium,No
+U002,M004,4,Avengers,Action,High,No
+U002,M005,5,Interstellar,Sci-Fi,High,No
+U003,M001,4,Inception,Sci-Fi,High,No
+U003,M006,5,The Dark Knight,Action,High,No
+U003,M007,3,Frozen,Animation,Medium,No
+U004,M004,5,Avengers,Action,High,No
+U004,M005,4,Interstellar,Sci-Fi,High,No
+U004,M008,5,Parasite,Thriller,High,No
+U005,M001,2,Inception,Sci-Fi,Low,No
+U005,M009,4,La La Land,Romance,High,No
+U005,M010,3,Shutter Island,Thriller,Medium,No
+U006,M002,5,Titanic,Romance,High,No
+U006,M006,4,The Dark Knight,Action,High,No
+U006,M007,4,Frozen,Animation,High,No
+U007,M003,5,The Godfather,Crime,High,No
+U007,M004,3,Avengers,Action,Medium,No
+U007,M010,2,Shutter Island,Thriller,Low,No
+U008,M008,4,Parasite,Thriller,High,No
+U008,M009,5,La La Land,Romance,High,No
+U008,M005,3,Interstellar,Sci-Fi,Medium,No
